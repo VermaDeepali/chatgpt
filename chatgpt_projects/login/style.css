@@ -1,3 +1,5 @@
+/* login */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1;
@@ -76,7 +78,38 @@ img.avatar {
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-    span.psw, span.forgot {
+
+    span.psw,
+    span.forgot {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+/* register */
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+
+    span.psw,
+    span.forgot {
         display: block;
         float: none;
     }

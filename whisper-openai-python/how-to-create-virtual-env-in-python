@@ -1,0 +1,14 @@
+1. Create a new Python virtual environment by running the following command:
+=> python3 -m venv openai_env
+Summary: This will create a new virtual environment in a directory called openai_env.
+
+2. Activate the virtual environment by running:
+=> source openai_env/bin/activate
+
+3. Once the virtual environment is activated, you can install OpenAI Python v0.27.0 using pip:
+=> pip install openai==0.27.0
+Summary: This will install the specific version of the OpenAI Python library.
+
+4. Once the installation is complete, you can verify that the correct version of the library is installed by running:
+=> pip show openai
+Summary: This should display information about the installed package, including the version number.
